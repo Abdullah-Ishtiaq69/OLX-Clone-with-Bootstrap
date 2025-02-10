@@ -1,0 +1,96 @@
+.icon-section {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.icon-section > svg {
+    top: 15%;
+    left: 18%;
+}
+
+
+.car-icon-section:hover {
+    cursor: pointer;
+}
+
+.building-icon-section:hover {
+    cursor: pointer;
+}
+
+.car-icon-section:hover > .icon-section > svg {
+    fill: royalblue;
+}
+
+.car-icon-section:hover > .icon-section-txt {
+    color: royalblue;
+}
+
+.building-icon-section:hover > .icon-section > svg {
+    fill: royalblue;
+}
+
+.building-icon-section:hover > .icon-section-txt {
+    color: royalblue;
+}
+
+.header > .row > .col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.line {
+    height: 4px;
+    left: 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+    transform-origin: top left;
+}
+
+.top {
+    bottom: 22px;
+}
+
+.middle {
+    bottom: 16px;
+}
+
+.bottom {
+    bottom: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#hamburger-checkbox:checked ~ label > .middle {
+    opacity: 0;
+    visibility: hidden;
+} 
+
+#hamburger-checkbox:checked ~ label > .top {
+    transform: rotate(45deg);
+    bottom: 24px;
+    left: 8px;
+} 
+
+#hamburger-checkbox:checked ~ label > .bottom {
+    transform: rotate(-45deg);
+    bottom: 7px;
+} 
+
+@media (max-width: 576px) {
+    .icon-section-txt {
+        font-size: 14px !important;
+    }
+
+    .icon-section {
+        height: 35px;
+        width: 35px;
+    }
+    
+    .icon-section > svg {
+        width: 22px;
+        height: 22px;
+    }
+}
