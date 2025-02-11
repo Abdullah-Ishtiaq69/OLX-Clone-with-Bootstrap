@@ -166,10 +166,23 @@ input[type="text"]:focus {
     left: 5%;
 }
 
+.categories-section img {
+    width: 15px;
+}
+
+.categories-section a {
+    font-size: 14px !important;
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width: 991px) {
     .second-button {
         background-size: contain;
         background-position: center center;
+    }
+    .spe-link a {
+        font-size: 10.7px !important;
     }
 }
 
