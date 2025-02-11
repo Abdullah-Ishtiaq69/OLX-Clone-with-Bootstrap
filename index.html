@@ -12,9 +12,9 @@
 
 <body>
 
-    <header>
+    <header class="border-bottom">
         <div class="container header">
-            <div class="row w-100 py-2">
+            <div class="row w-100 py-3 d-none d-md-flex">
                 <div class="col-3 logo col-md-3 col-lg-2 col-md-3 col-sm-3">
                     <img src="./assets/logo.png" alt="OLX" width="65px">
                 </div>
@@ -33,10 +33,12 @@
                         Motors
                     </div>
                 </div>
-                <div class="col-4 d-flex align-items-center column-gap-2 building-icon-section col-md-3 col-lg-2 col-sm-4">
+                <div
+                    class="col-4 d-flex align-items-center column-gap-2 building-icon-section col-md-3 col-lg-2 col-sm-4">
                     <div class="icon-section position-relative bg-body-secondary rounded-5">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26"
-                            height="26" viewBox="0 0 24 24" class="_5120d4ee position-absolute" alt="OLX Property" id="SVG 2">
+                            height="26" viewBox="0 0 24 24" class="_5120d4ee position-absolute" alt="OLX Property"
+                            id="SVG 2">
                             <path
                                 d="M22.78 21.81V7.8L15.3 5.3v1.58l5.98 2V21.8H13.8V.7H1.22v21.1h-.6v1.5h22.76v-1.5h-.6zM12.3 4.3v17.5H2.72V2.2h9.58v2.1z" />
                             <path
@@ -44,17 +46,111 @@
                         </svg>
                     </div>
                     <div class="icon-section-txt fw-bold">
-                        Motors
+                        Property
                     </div>
                 </div>
-                <input type="checkbox" id="hamburger-checkbox">
-                <label for="hamburger-checkbox" class="col-1 d-block d-sm-none position-relative">
-                    <div class="top line position-absolute w-75 bg-black rounded-5"></div>
-                    <div class="middle line position-absolute w-75 bg-black rounded-5"></div>
-                    <div class="bottom line position-absolute w-75 bg-black rounded-5"></div>
-                </label\>
             </div>
-            <div class="row"></div>
+            <div class="row py-1 d-none d-md-flex pb-4">
+                <div class="col-3 d-flex align-items-center location-section p-2 rounded-1">
+                    <div class="loaction-icon icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            fill="#000000" version="1.1" id="Layer_1" viewBox="0 0 368.666 368.666" xml:space="preserve"
+                            class="w-100">
+                            <g id="XMLID_2_">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M184.333,0C102.01,0,35.036,66.974,35.036,149.297c0,33.969,11.132,65.96,32.193,92.515     c27.27,34.383,106.572,116.021,109.934,119.479l7.169,7.375l7.17-7.374c3.364-3.46,82.69-85.116,109.964-119.51     c21.042-26.534,32.164-58.514,32.164-92.485C333.63,66.974,266.656,0,184.333,0z M285.795,229.355     c-21.956,27.687-80.92,89.278-101.462,110.581c-20.54-21.302-79.483-82.875-101.434-110.552     c-18.228-22.984-27.863-50.677-27.863-80.087C55.036,78.002,113.038,20,184.333,20c71.294,0,129.297,58.002,129.296,129.297     C313.629,178.709,304.004,206.393,285.795,229.355z" />
+                                        <path
+                                            d="M184.333,59.265c-48.73,0-88.374,39.644-88.374,88.374c0,48.73,39.645,88.374,88.374,88.374s88.374-39.645,88.374-88.374     S233.063,59.265,184.333,59.265z M184.333,216.013c-37.702,0-68.374-30.673-68.374-68.374c0-37.702,30.673-68.374,68.374-68.374     s68.373,30.673,68.374,68.374C252.707,185.341,222.035,216.013,184.333,216.013z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <input type="text" value="Pakistan" class="border-0">
+                    <div class="dropdown-icon icon">
+                        <svg class="w-100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            fill="#000000" version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+                            <path id="XMLID_225_"
+                                d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393  c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393  s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-6 d-flex">
+                    <input type="text" placeholder="Find Cars, Mobile Phones and more..."
+                        class="p-2 search-input rounded-1">
+                    <div class="search-icon-section position-relative icon bg-dark rounded-end rounded-end-bottom">
+                        <svg style="fill: white;" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024"
+                            class="_11996820 position-absolute translate-middle top-50 start-50 w-50" id="SVG 5">
+                            <path
+                                d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center column-gap-4 buttons">
+                    <a href="" class="text-black fw-bold text-decoration-none">Login</a>
+                    <div class="second-button d-flex align-items-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" width="16" height="16"
+                            viewBox="0 0 1024 1024" fill="#002f34">
+                            <path
+                                d="M414.898 123.739v291.218H123.68l-97.014 97.014 97.014 97.131h291.218v291.16l97.073 97.071 97.073-97.071v-291.16h291.16l97.131-97.131-97.131-97.014h-291.16V123.739l-97.073-97.073z" />
+                        </svg>
+                        <div class="second-button-txt fw-bold">SELL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-md-none d-flex flex-nowrap py-3">
+                <div class="col-1 me-3">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label">
+                        <div class="lines line-1"></div>
+                        <div class="lines line-2"></div>
+                        <div class="lines line-3"></div>
+                    </label>
+                </div>
+                <div class="col-1 me-5">
+                    <img src="./assets/logo.png" alt="" class="mobile-logo">
+                </div>
+                <div class="col-4 ">
+                    <div class="mbl-icon-section d-flex align-items-center column-gap-2">
+                        <div class="mbl-icon">
+                            <img src="./assets/car-icon.svg" alt="">
+                        </div>
+                        <div class="mbl-txt fw-bold">
+                            Motors
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mbl-icon-section d-flex align-items-center column-gap-2">
+                        <div class="mbl-icon">
+                            <img src="./assets/building-icon.svg" alt="" class="w-100">
+                        </div>
+                        <div class="mbl-txt fw-bold">
+                            Property
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-md-none d-flex align-items-center pb-3">
+                <div class="col-1">
+                    <img src="./assets/location-icon.svg" alt="" class="mbl-icon-img">
+                </div>
+                <div class="col-4  pe-0 ps-2 location-txt">
+                    <div class="fw-bold">Orangi Town, Karachi</div>
+                </div>
+                <div class="col-1 ps-0 text-center">
+                    <img src="./assets/down-arrow-icon.svg" alt="" class="mbl-icon-img">
+                </div>
+            </div>
+            <div class="row last-header-section d-block d-md-none">
+                <div class="col-12 position-relative">
+                    <img src="./assets/search-icon.svg" alt="" class="position-absolute">
+                    <input type="text" class="w-100 ps-5 py-2 rounded-1" placeholder="All ads in Orangi Town">
+                </div>
+            </div>
         </div>
     </header>
 
