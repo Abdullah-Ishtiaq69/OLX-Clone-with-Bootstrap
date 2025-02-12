@@ -175,6 +175,23 @@ input[type="text"]:focus {
     text-decoration: none;
     color: black;
 }
+.carousel-item .img-1 {
+    height: 160px !important;
+    width: 100%;
+    background: url(./assets/hero-section.jfif) no-repeat;
+    background-size: cover;
+}
+
+.hide-category-sec a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (max-width: 1199px) {
+    .main-cate-card {
+        column-gap: 2.8rem !important;
+    }
+}
 
 @media (max-width: 991px) {
     .second-button {
@@ -184,11 +201,35 @@ input[type="text"]:focus {
     .spe-link a {
         font-size: 10.7px !important;
     }
+    .main-cate-card {
+        column-gap: 1.8rem !important;
+    }
 }
 
 @media (max-width: 768px) {
     .border-bottom {
         border: none !important;
+    }
+    .main-cate-card {
+        overflow-x: scroll;
+        column-gap: 0rem !important;
+    }
+    .main-cate-card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .main-cate-card h6 {
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+
+    .category-first {
+        margin: 14px auto !important;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
     }
 }
 
