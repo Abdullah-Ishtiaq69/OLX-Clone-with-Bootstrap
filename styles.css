@@ -219,7 +219,60 @@ input[type="text"]:focus {
     width: 100% !important;
 }
 
+.vertical-line {
+    height: 140px;
+    width: 2px;
+    background-color: rgba(128, 128, 128, 0.308);
+}
 
+.footer-img-section {
+    background-color: #f7f8f9;
+}
+
+.footer-img-section p {
+    font-size: 22px !important;
+    line-height: 28px;
+}
+
+.line-section {
+    width: 30px !important;
+}
+
+.footer-img img {
+    width: 40% !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.last-footer-img-section img {
+    width: 40%;
+}
+
+.footer-link-section {
+    background-color: #ebeeef;
+}
+
+.footer-link-section a {
+    font-size: 14px !important;
+}
+
+.footer-bold-link ~ a {
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.last-section {
+    background-color: #002f34;
+}
+
+.last-section div {
+    font-size: 12px !important;
+}
+
+.last-section h6 {
+    font-size: 13px !important;
+}
 
 @media (max-width: 1199px) {
     .main-cate-card {
